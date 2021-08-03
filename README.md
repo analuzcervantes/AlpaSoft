@@ -1,6 +1,6 @@
 # AlpaSoft
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)(https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 AlpaSoft is a simple open source platform dedicated to point of sale and inventory management.
 
