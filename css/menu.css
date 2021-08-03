@@ -1,0 +1,308 @@
+@CHARSET "ISO-8859-1";
+
+/* ESTILO DE MENU */
+
+body{
+	font-family: Cambria, Georgia, serif;
+	background: url(../imG/1.jpg);
+	font-weight: 300;
+	font-size: 15px;
+}
+
+a{
+	color: #555;
+	text-decoration: none;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+ * { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+.ch-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.ch-grid li {
+	width: 220px;
+	height: 220px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	box-shadow: 
+		inset 0 0 0 0 rgba(200,95,66, 0.4),
+		inset 0 0 0 16px rgba(255,255,255,0.6),
+		0 1px 2px rgba(0,0,0,0.1);
+		
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.ch-img-1 { 
+	background-image: url(../img/venta.png);
+	background-repeat: no-repeat;
+}
+
+.ch-img-2 { 
+	background-image: url(../img/almacen.png);
+	background-repeat: no-repeat;
+}
+
+.ch-img-3 { 
+	background-image: url(../img/reg.png);
+	background-repeat: no-repeat;
+}
+
+.ch-img-4 { 
+	background-image: url(../img/conf.png);
+	background-repeat: no-repeat;
+}
+
+.ch-img-5 { 
+	background-image: url(../img/vn.png);
+	background-repeat: no-repeat;
+}
+
+.ch-img-6 { 
+	background-image: url(../img/pro.png);
+	background-repeat: no-repeat;
+}
+
+.ch-img-7 { 
+	background-image: url(../img/reporte.png);
+	background-repeat: no-repeat;
+}
+
+.ch-img-8 { 
+	background-image: url(../img/devo.png);
+	background-repeat: no-repeat;
+}
+
+.conf-img-1 { 
+	background-image: url(../img/cop.png);
+	background-repeat: no-repeat;
+}
+
+.conf-img-2 { 
+	background-image: url(../img/urs.png);
+	background-repeat: no-repeat;
+}
+
+.conf-img-3 { 
+	background-image: url(../img/pss.png);
+	background-repeat: no-repeat;
+}
+
+.almacen-img-1 { 
+	background-image: url(../img/ac.png);
+	background-repeat: no-repeat;
+}
+
+.almacen-img-2 { 
+	background-image: url(../img/taj.png);
+	background-repeat: no-repeat;
+}
+
+.proveedor-img-1 { 
+	background-image: url(../img/add.png);
+	background-repeat: no-repeat;
+}
+
+.proveedor-img-2 { 
+	background-image: url(../img/agenda.png);
+	background-repeat: no-repeat;
+}
+
+.ch-info {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	opacity: 0;
+	
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	
+	-webkit-backface-visibility: hidden; /*for a smooth font */
+
+}
+
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin: 0 30px;
+	padding: 65px 0 0 0;
+	height: 110px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+	color: #fff;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch-info p a {
+	display: block;
+	color: #fff;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+	color: #fff222;
+	color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover {
+	box-shadow: 
+		inset 0 0 0 110px rgba(200,95,66, 0.4),
+		inset 0 0 0 16px rgba(255,255,255,0.8),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+
+.ch-item:hover .ch-info {
+	opacity: 1;
+	
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);	
+}
+
+/*  BARRA DE BUSQUEDA   */
+   
+    .buscador {
+        width: 460px; /* LARGO DEL DORMULARIO */
+        padding: 10px;
+        margin: 150px auto;
+        float: center; 
+        background: #444;
+        background: rgba(0,0,0,.2);
+        border-radius: 10px; /* BONDE DEL BUSCADOR, EFFECTO DE CURVAS*/
+        -moz-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+        box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    }
+    
+    .buscador input {
+        width: 330px;
+        height: 40px;
+        padding: 10px 5px;
+        font: bold 15px 'Tahoma';
+        border: 0;
+        background: #eee;
+        -moz-border-radius: 3px 0 0 3px;
+        -webkit-border-radius: 3px 0 0 3px;
+        border-radius: 3px 0 0 3px;      
+    }
+    
+    .buscador input:focus {
+        background: #fff;
+        -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    }
+    
+    .buscador input::-webkit-input-placeholder {
+       color: #999;
+       font-weight: normal;
+       font-style: italic;
+    }
+    
+    .buscador input:-moz-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }
+    
+    .buscador input:-ms-input-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }    
+    
+    .buscador button {
+		overflow: visible;
+        position: relative;
+        float: right;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        height: 40px;
+        width: 107px;
+        font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+        color: #fff;
+        background: #d83c3c;
+        -moz-border-radius: 0 3px 3px 0;
+        -webkit-border-radius: 0 3px 3px 0;
+        border-radius: 0 3px 3px 0;      
+        text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+    }   
+      
+    /* BOTON BUSCAR CAMBIARA DE COLOR SOLO CUANDO SE LE PASE EL CURSOR POR ENSIMA */  
+    .buscador button:hover{		
+        background: #e54040;
+    }	
+      
+    .buscador button:active,
+    .form-wrapper button:focus{   
+        background: #c42f2f;    
+    }
+    
+    /* EFECTO TRIANGULO DEL BOTON BUSCAR, LADO IZQ */
+    .buscador button:before {
+        content: '';
+        position: absolute;
+        border-width: 8px 8px 8px 0;
+        border-style: solid solid solid none;
+        border-color: transparent #d83c3c transparent;
+        top: 12px;
+        left: -8px;
+    }

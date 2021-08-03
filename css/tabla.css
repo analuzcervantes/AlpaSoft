@@ -1,0 +1,34 @@
+@CHARSET "ISO-8859-1";
+
+table, td{
+	border-collapse: collapse;
+    font-family: Rockwell;
+    }
+    
+table{
+	background-color: #DCDCDC;
+	}
+	
+thead th,tbody th{
+    background:#0B0B3B url("f2.JPG");
+    background-size: cover;
+    color: #3A4856;  
+	padding: 5px 10px;
+    border-left: 1px solid #3A4856;
+  }
+
+tbody th{
+  background: #3A4856;
+  text-align: center;
+  font-weight: normal;
+  color: #fff;
+  }
+
+tbody tr td{
+	padding: 5px 15px;
+    color: #666;
+    }
+
+tbody tr:hover{
+    background: #FFF url(tr_bck.gif) repeat;
+    }
